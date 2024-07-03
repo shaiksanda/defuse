@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+.bomb-container {
+  background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.input {
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  width: 200px;
+  height: 35px;
+  border-radius: 6px;
+  border-width: 0px;
+}
+
+.image {
+  width: 200px;
+  margin: 25px;
+}
+
+.heading {
+  font-family: "Roboto";
+  color: black;
+  font-weight: bold;
+}
+
+.boom {
+  width: 95%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .boom {
+    width: 60%;
+    height: 50%;
+  }
+}
